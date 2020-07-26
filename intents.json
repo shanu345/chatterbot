@@ -1,0 +1,188 @@
+{"intents": [
+      {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+		{"tag": "asking",
+         "patterns": ["what is your name?"],
+         "responses": ["My name is bot and I am creating by   shanu.."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Admission process", "Offering support for Admission Process"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["About GMIT", "tell me about GMIT" ,"about Gargi Memorial Institute of Technology" ],
+         "responses": ["Gargi Memorial Institute of Technology (GMIT), an engineering institute in West Bengal was started in 2011 by Mallabhum Human Resource Development Trust (MHRDT) in memory of Lt. Gargi Mukherjee (Banerjee).Barely in its 5th year, GMIT has been ranked 8th amongst all emerging engineering colleges in India because of its educational excellence and professional infrastructural facilities. This trust registered under the Trust Registration Act, West Bengal 1950.GMIT courses are approved by AICTE and college is affiliated to West Bengal University of Technology."],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Address of GMIT", "address of gmit" ],
+         "responses": ["Baruipur, Mouza Beralia, Balarampur, Kolkata, West Bengal 700144"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["Courses offered", "what are the courses offered" ],
+         "responses": ["B.Tech. in Computer Science and Engineering; B.Tech.(Lateral Entry); B.Tech. in Mechanical Engineering; B.Tech. in Electronics and Communication Engineering; B.Tech. in Civil Engineering; B.Tech. in Electrical Engineering"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": ["Facilities available", "what are the facilities available"],
+         "responses": ["Library, Wi-Fi Campus, Hostel, Medical Facilities, Sports Complex, Gym, Labs"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["How to apply?" ],
+         "responses": ["After getting the information regarding the courses and fulfilling the eligibility criteria, the student can apply for any course by paying required registration amount for reserving the seat(which will be adjusted with their Tuition Fee)."],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": ["college admission requirements"],
+         "responses": ["A student should check if he meets the eligibility criteria for the course he wishes to pursue and submit Xerox copies (photocopies) of all his testimonials for verification."],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["What if a student fails to register for the selection rounds before the deadline?" ],
+         "responses": ["The student may call the admission cell to inform the proper reasons thereof and may request for an extension of dates to submit the DD for his registration. Final decision in this regard will be taken by the Admission cell."],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": ["How does the college admission process work?"],
+         "responses": ["You have to submit required information and have to fulfill the eligibility criteria. For more information contact: https://www.gmitkolkata.org/Admission"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": ["How shall I find out if I am admitted?"],
+         "responses": ["You will be notified by either message or call"],
+         "context": [""]
+        },
+		{"tag": "photocopies",
+         "patterns": ["May I send photocopies of my scores?"],
+         "responses": ["Yes, you may if you are applying for admission. However , Original Score are to be submitted for verification in the college."],
+         "context": [""]
+        },
+		{"tag": "camput_visit",
+         "patterns": ["How do I arrange for a camput visit?"],
+         "responses": ["Fifteen-minute tours of campus, leaving from the Administrative Block, are available throughout the calender year.Tours are held on the hours, Tuesday through Saturday, from 11:00 a.m. to 4 p.m. Prior request/appointment for campus visit is mandatory. Before making your travel arrangements you could take a prior appointment from the Admissions cell for us to make it more personal to you."],
+         "context": [""]
+        },
+		{"tag": "fees_structure",
+         "patterns": ["What is the fees structure?"],
+         "responses": ["B.Tech(Normal entry): 1.05 Lakhs/Year; B.Tech(Lateral entry):1.05 Lakhs/Year"],
+         "context": [""]
+        },
+		{"tag": "offer_placement_in_GMIT",
+         "patterns": ["Name of the company who offer placement in GMIT"],
+         "responses": ["BASSETTI ITES Pvt. Ltd., Capgemini, IBM, Blue Star and many more."],
+         "context": [""]
+        },
+		{"tag": "admission_in Gargi_Memorial_Institute_of_Technology",
+         "patterns": ["How do I get an admission in Gargi Memorial Institute of Technology?"],
+         "responses": ["You can take admission by JEE(Mains) counselling or by direct contacting college. Ph. No. 8240192964, 8336942309"],
+         "context": [""]
+        },
+		{"tag": "exams_accepted ",
+         "patterns": ["Which are the entrance exams accepted by GMIT"],
+         "responses": [" WBJEE and JEE(Mains)"],
+         "context": [""]
+        },
+		{"tag": "hostel_facility",
+         "patterns": ["Does the GMIT college have hostel facility"],
+         "responses": ["Yes, separate hostel for boys and girls"],
+         "context": [""]
+        },
+		{"tag": "facilities_provided_by_GMIT",
+         "patterns": ["What are the infrastrucural facilities provided by GMIT"],
+         "responses": ["Library, Hostel, Medical Facilities, Gym, Labs"],
+         "context": [""]
+        },
+		{"tag": "government_college",
+         "patterns": ["Is GMIT, Kolkata a government college?"],
+         "responses": ["GMIT,Kolkata is a Private college, affiliated to AICTE."],
+         "context": [""]
+        },
+		{"tag": "established",
+         "patterns": ["When was the college, GMIT, Kolkata established?"],
+         "responses": ["GMIT,Kolkata was established in the year 2011"],
+         "context": [""]
+        },
+		{"tag": "the_eligibility_criteria",
+         "patterns": ["What is the eligibility criteria?"],
+         "responses": ["10+2 with 45% + WBJEE or JEE(Main)"],
+         "context": [""]
+        },
+		{"tag": "the_duration_of_each_course",
+         "patterns": ["What is the duration of each course?"],
+         "responses": ["4 year(Normal course); 3 year(Lateral entry students)"],
+         "context": [""]
+        },
+		{"tag": "required_at_the_time_of_admission",
+         "patterns": ["What are the documents required at the time of admission?"],
+         "responses": ["Photocopy of Marksheet,8 Passport size Photograph,Parents's Photograph(1 each of father and mother), Family Income Certificate,Character Certificate, Blood Group Report. For more information : https://www.gmitkolkata.org/Admission"],
+         "context": [""]
+        },
+		{"tag": "particular_Uniform ",
+         "patterns": ["Is there any particular Uniform ?"],
+         "responses": ["Yes, only for 1st Year which was provided by college."],
+         "context": [""]
+        },
+		{"tag": "working_days_of_college",
+         "patterns": ["What are the working days of college?"],
+         "responses": [" Tuesday to Saturday (10:15- 17:45)"],
+         "context": [""]
+        },
+		{"tag": "contact_number",
+         "patterns": [" contact number"],
+         "responses": ["8240192964, 8336942309"],
+         "context": [""]
+        },
+		{"tag": "timing_of_college",
+         "patterns": [" What is the timing of college?"],
+         "responses": ["Tuesday to Saturday (10:15- 17:45)"],
+         "context": [""]
+        },
+		{"tag": "attendance_criteria",
+         "patterns": ["What is minimum attendance criteria?"],
+         "responses": ["75%"],
+         "context": [""]
+        },
+		{"tag": "the_mode_of_fees_payment",
+         "patterns": ["What is the mode of fees payment?"],
+         "responses": ["You can pay fees by any mode: Cash/Cheque(United Bank of India) or Online Payment"],
+         "context": [""]
+        },
+		{"tag": "any_scholarship_available",
+         "patterns": ["Is there any scholarship available?"],
+         "responses": ["Yes, there are various scholarship available."],
+         "context": [""]
+        },
+		{"tag": "smart_class_available",
+         "patterns": ["Is there any smart class available?"],
+         "responses": [" Yes"],
+         "context": [""]
+        },
+		{"tag": "computer_is_available",
+         "patterns": ["How many computer is available in Lab for each student?"],
+         "responses": ["1 PC per student"],
+         "context": [""]
+        }
+   ]
+}
